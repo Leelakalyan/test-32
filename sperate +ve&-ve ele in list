@@ -1,0 +1,26 @@
+num=int(input('enter num:'))
+l=[]
+p=[]
+n=[]
+for i in range(num):
+    x=int(input('enter ele'))
+    l.append(x)
+for i in l :
+    if i>=0:
+        p.append(i)
+    else:
+        n.append(i)
+print(l)
+print(p)
+print(n)
+
+output:
+enter num:5
+enter ele6
+enter ele9
+enter ele-4
+enter ele-1
+enter ele0
+[6, 9, -4, -1, 0]
+[6, 9, 0]
+[-4, -1]
